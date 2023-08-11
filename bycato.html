@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CATEGORIES</title>
+  <!-- add icon link -->
+    <link rel = "icon" href="poster/guitar.png" type = "image/x-icon"> 
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/cato.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    body {
+        background-image: url("poster/backimg.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+        }
+</style>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+  
+  <link rel="stylesheet" href="css/style.css">
+  <!--<link rel="stylesheet" href="css/animate.css">-->
+  
+</head>
+<!---------------navbar section start------------------------------------>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    <img src="poster/guitar.png" style="height:50px;width:auto;float:left"></img>
+      <a class="navbar-brand" href="#">Dguitarist</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right" style="text-align:center">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="songbook.html">SONGBOOK</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">SEARCH BY
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu" style="text-align:center;background-color:#d8cfd0">
+            <li><a href="latestsongs.html">LATEST SONGS</a></li>
+            <li><a href="byartist.html">ARTIST</a></li>
+            <li><a href="bylang.html">LANGUAGES</a></li>
+             <li><a href="bycato.html">CATERGORIES</a></li>
+          </ul>
+        </li>
+    <li><a href="sheet.html">CHORDSHEET</a></li>
+        </li>
+        <li>
+          <form action="searchpage.php" method="POST">
+            <input type="search" id="search" name="search" placeholder="Search">
+            <i class="fa fa-search"></i>
+          </form>   
+        </li>
+    
+      </ul> 
+    </div>
+  </div>
+</nav><br><br><br><br>
+<!---------------navbar section end------------------------------------>
+<div class="sort">
+  <ul class="tabs">
+    <li class="active"><a class="lis" data-toggle="tab" href="#home">TRAVEL</a></li>
+    <li><a class="lis" data-toggle="tab" href="#menu1">SOULFUL</a></li>
+    <li><a class="lis" data-toggle="tab" href="#menu2">Chill</a></li>
+    <li><a class="lis" data-toggle="tab" href="#menu3">POP</a></li>
+    <li><a class="lis" data-toggle="tab" href="#menu4">POPULAR</a></li>
+    <li><a class="lis" data-toggle="tab" href="#menu5">ROMANTIC</a></li>
+  </ul>
+</div><hr style="border-top:dotted">
+<div class="tab-content">
+  <div id="home" class="tab-pane fade in active">
+    <div class="title"><h1>TRAVEL</h1></div>
+    <div class="im">
+      <div class="bx">
+        <div class="igBox">
+          <img src="poster/ektara.jpg">
+        </div>
+        <div class="con">
+          <h2><a href="ektara.html">EKTARA</a></h2>
+          <p>Singer - Kavita Seth, Amit Trivedi</p>
+        </div>
+      </div>
+      <div class="bx">
+        <div class="igBox">
+          <img src="poster/kabira.jpg">
+        </div>
+        <div class="con">
+          <h2><a href="kabira.html">KABIRA</a></h2>
+          <p>Singer - Arijit Singh, Harshdeep Kaur</p>
+        </div>
+      </div>
+      <div class="bx">
+        <div class="igBox">
+          <img src="poster/Main Rahoon.jpg">
+        </div>
+        <div class="con">
+          <h2><a href="mainrahoon.html">MAIN RAHOON YA NA RAHOON</a></h2>
+          <p>Singer -  Armaan Malik</p>
+        </div>
+      </div>
+      <div class="bx">
+        <div class="igBox">
+          <img src="poster/malang.jpg">
+        </div>
+        <div class="con">
+          <h2><a href="malang.html">MALANG</a></h2>
+          <p>Singer - Ved Sharma</p>
+        </div>
+      </div>
+      <div class="bx">
+        <div class="igBox">
+          <img src="poster/idontcare.png">
+        </div>
+        <div class="con">
+          <h2><a href="idontcare.html">I DON'T CARE</a></h2>
+          <p>Singer - Ed Sheeran, Justin Bieber</p>
+        </div>
+      </div>
+      <div class="bx">
+        <div class="igBox">
+          <img src="poster/intent.jpg">
+        </div>
+        <div class="con">
+          <h2><a href="intent.html">INTENTIONS</a></h2>
+          <p>Singer - Justin Bieber</p>
+        </div>
+      </div>
+      <div class="bx">
+        <div class="igBox">
+          <img src="poster/lover.jpg">
+        </div>
+        <div class="con">
+          <h2><a href="london_boy.html">LONDON BOY</a></h2>
+          <p>Singer - Taylor Swift</p>
+        </div>
+      </div>
+      <div class="bx">
+        <div class="igBox">
+          <img src="poster/wolves.jpg">
+        </div>
+        <div class="con">
+          <h2><a href="wolves.html">WOLVES</a></h2>
+          <p>Singer - Selena Gomez</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="menu1" class="tab-pane fade">
+    <div class="title"><h1>SOULFUL</h1></div>
+    <div class="im">
+      <div class="bx">
+        <div class="igBox">
+          <img src="poster/aaspaas.jpg">
+        </div>
+        <div class="con">
+          <h2><a href="aaspaas.html">AAS PASS HAI KHUDA</a></h2>
+          <p>Singer - Rahat Fateh Ali Khan</p>
+        </div>
+      </div>
+      <div class="bx">
+        <div class="igBox">
+          <img src="poster/sukoon mila.jpg">
+        </div>
+        <div class="con">
+          <h2><a href="sukoonmila.html">SUKOON MILA</a></h2>
+          <p>Singer - Arijit Singh</p>
+        </div>
+      </div>
+      <div class="bx">
+        <div class="igBox">
+          <img src="poster/saibo.jpg">
+        </div>
+        <div class="con">
+          <h2><a href="saibo.html">SAIBO</a></h2>
+          <p>Singer - Shreya Ghoshal,Tochi Raina</p>
+        </div>
+      </div>
+      <div class="bx">
+        <div class="igBox">
+          <img src="poster/ve mahi.jpg">
+        </div>
+        <div class="con">
+          <h2><a href="ve mahi.html">VE MAHI</a></h2>
+          <p>Singer - Arijit Singh</p>
+        </div>
+      </div>
+      <div class="bx">
+        <div class="igBox">
+          <img src="poster/beforeyougo.jpg">
+        </div>
+        <div class="con">
+          <h2><a href="beforeyougo.html">BEFORE YOU GO</a></h2>
+          <p>Singer - Lewis Capaldi</p>
+        </div>
+      </div>
+      <div class="bx">
+        <div class="igBox">
+          <img src="poster/bruises.png">
+        </div>
+        <div class="con">
+          <h2><a href="bruises.html">BRUISES</a></h2>
+          <p>Singer - Lewis capaldi</p>
+        </div>
+      </div>
+      <div class="bx">
+        <div class="igBox">
+          <img src="poster/Folklore.jpg">
+        </div>
+        <div class="con">
+          <h2><a href="exile.html">EXILE</a></h2>
+          <p>Singer - Taylor Swift</p>
+        </div>
+      </div>
+      <div class="bx">
+        <div class="igBox">
+          <img src="poster/Loseyou.png">
+        </div>
+        <div class="con">
+          <h2><a href="Loseyou.html">LOSE YOU TO LOVE ME</a></h2>
+          <p>Singer - Selena Gomez</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="menu2" class="tab-pane fade">
+    <div class="title"><h1>CHILL</h1></div>
+    <div class="im">
+      <div class="bx">
+        <div class="igBox">
+          <img src="poster/bhageremann.jpg">
+        </div>
+        <div class="con">
+          <h2><a href="bhageremann.html">BHAAGE RE MANN</a></h2>
+          <p>Singer - Sunidhi Chauhan</p>
+        </div>
+      </div>
+      <div class="bx">
+      <div class="igBox">
+        <img src="poster/lamha lamha.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="lamha lamha.html">LAMHA LAMHA</a></h2>
+        <p>Singer - Abhijeet Bhattacharya, Sunidhi Chauhan</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/mere liye.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="mere liye.html">MERE LIYE TUM KAAFI HO</a></h2>
+        <p>Singer - Ayushmann Khurrana</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/terazikr.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="terazikr.html">TERA ZIKR</a></h2>
+        <p>Singer - Darshan Raval</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/Folklore.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="Cardigan.html">CARDIGAN</a></h2>
+        <p>Singer - Taylor Swift</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/intent.png">
+      </div>
+      <div class="con">
+        <h2><a href="changes.html">CHANGES</a></h2>
+        <p>Singer - Justin Bieber</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/tr1.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="no promises.html">NO PROMISES</a></h2>
+        <p>Singer - Shawn Mendes</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/Wonder.jpeg">
+      </div>
+      <div class="con">
+        <h2><a href="wonder.html">WONDER</a></h2>
+        <p>Singer - Shawn Mendes</p>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div id="menu3" class="tab-pane fade">
+    <div class="title"><h1>POP</h1></div>
+    <div class="ig">
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/alltheseyears.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="alltheseyears.html">ALL THESE YEARS</a></h2>
+        <p>Singer - Camila Cabello</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/Holy.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="Holy.html">HOLY</a></h2>
+        <p>Singer - Justin Bieber</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/tr.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="patience.html">PATIENCE</a></h2>
+        <p>Singer - Shawn Mendes</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/realfriends.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="realfriends.html">REAL FRIENDS</a></h2>
+        <p>Singer - Camila Cabello</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="menu4" class="tab-pane fade">
+ <div class="title"><h1>POPULAR</h1></div>
+ <div class="im">
+  <div class="bx">
+      <div class="igBox">
+        <img src="poster/qaafirana.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="qaafirana.html">QAAFIRANA</a></h2>
+        <p>Singer - Arijit Singh</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/raabta.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="raabta.html">RAABTA</a></h2>
+        <p>Singer - Taylor Swift</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/tumsehi.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="tumsehi.html">TUM SE HI</a></h2>
+        <p>Singer - Mohit Chauhan</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/kabhijo.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="kabhijo.html">KABHI JOH BADAL BARSE</a></h2>
+        <p>Singer -  Arijit Singh</p>
+      </div>
+    </div>
+   <div class="bx">
+      <div class="igBox">
+        <img src="poster/havana.png">
+      </div>
+      <div class="con">
+        <h2><a href="havana.html">HAVANA</a></h2>
+        <p>Singer - Camila Cabello</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/perfect.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="perfect.html">PERFECT</a></h2>
+        <p>Singer - Ed Sheeran</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/photograph.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="photograph.html">PHOTOGRAPH</a></h2>
+        <p>Singer - Ed Sheeran</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/someone.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="someone.html">SOMEONE YOU LOVED</a></h2>
+        <p>Singer - Lewis Capaldi</p>
+      </div>
+    </div>
+ </div>
+</div>
+<div id="menu5" class="tab-pane fade">
+  <div class="title"><h1>ROMANTIC</h1></div>
+ <div class="im">
+   <div class="bx">
+      <div class="igBox">
+        <img src="poster/aashiyan.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="aashiyan.html">AASHIYAN</a></h2>
+        <p>Singer - Shreya Ghoshal, Nikhil Paul George</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/chaarkadam.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="charkadam.html">CHAAR KADAM</a></h2>
+        <p>Singer - Shaan, Shreya Ghosal</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/dekhona.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="dekho na.html">DEKHO NA</a></h2>
+        <p>Singer - Shaan, Sunidhi Chauhan</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/duniya.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="duniya.html">DUNIYA</a></h2>
+        <p>Singer - Akhil, Dhvani Bhanushali</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/alltheseyears.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="alltheseyears.html">ALL THESE YEARS</a></h2>
+        <p>Singer - Camila Cabello</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/backtoyou.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="backtoyou.html">BACK TO YOU</a></h2>
+        <p>Singer - Selena Gomez</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/perfect.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="perfect.html">PERFECT</a></h2>
+        <p>Singer - Ed Sheeran</p>
+      </div>
+    </div>
+    <div class="bx">
+      <div class="igBox">
+        <img src="poster/someone.jpg">
+      </div>
+      <div class="con">
+        <h2><a href="someone.html">SOMEONE YOU LOVED</a></h2>
+        <p>Singer - Lewis Capaldi</p>
+      </div>
+    </div>
+ </div>
+</div>
+ 
+  <!------------------------------- footer section start ------------------------------->
+
+<footer class="site-footer" id="footer">
+<div class="text-center">
+  <a class="up-arrow" href="#myPage" id="click" data-toggle="tooltip" title="BACK TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+</div><br><br>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About Us</h6>
+            <p style="justify-content: center">
+              <h3>Dguitarist is a website which give a brief guitar theory and chords.</h3>
+          It all began when a bunch of music lovers met and
+        decided to do something about their passion for music and that's how 
+        dguitarist came into existence.
+            </p>
+        
+      </p>      
+          </div>
+      <div class="col-xs-6 col-md-3">
+        <h6>Services</h6>
+        <ul>
+          <li>Chords of all your favourite songs in Hindi and English.<br></li>
+          <li>Transpose facility available.<br></li>
+          <li>Chords with Lyrics.<br></li>
+          <li>180+ Images of Chords.<br></li>
+          <li>All Features are free without even registration!<br></li>
+        </ul> 
+      </div>
+     
+               
+      <div class="col-xs-6 col-md-3">
+      <div class="contactForm">
+        <h6>Get in Touch with Us</h6>
+            <form action="sendcomm.php" method="POST">
+                <label>  Name <br><input type="name" name='name' class="fill"  required></label><br>
+                <label>  Email <br><input type="email" name='email' class="fill"  required></label><br>
+                <label>  Leave a message or request a song<br><textarea rows="3" name="msg" class="fill" required></textarea></label><br>               
+        <input type="submit" name="post" class="fill-btn" value="Post">
+            </form>     
+      </div>
+        </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+         <a href="#">Dguitarist</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a class="twitter" href="https://twitter.com/DguitaristO"><i class="fab fa-twitter"></i></a></li>
+              <li><a class="instagram" href="https://www.instagram.com/_dguitarist_/"><i class="fab fa-instagram"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+    </div>
+</footer>
+
+<!------------------------------- footer section end ------------------------------->
+
+
+
+<!--<script src="js/main.js"></script>-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    $(document).ready(function (){
+        $("#click").click(function (){
+            $('html, body').animate({
+                scrollTop: $("#myPage").offset().top
+            }, 2000);
+        });
+    });
+</script>
+
+
+</body>
+</html>

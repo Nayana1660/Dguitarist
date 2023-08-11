@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dguitarist</title>
+  <!-- add icon link -->
+    <link rel = "icon" href="poster/guitar.png" type = "image/x-icon"> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+  <link rel="stylesheet" href="css/home.css">
+  <!--<link rel="stylesheet" href="css/animate.css">-->
+  
+</head>
+<!---------------navbar section start------------------------------------>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+	  <img src="poster/guitar.png"></img>
+      <a class="navbar-brand" href="#">Dguitarist</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right" style="text-align:center">
+        <li><a href="index.html" class="active">HOME</a></li>
+		<li><a href="songbook.html">SONGBOOK</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">SEARCH BY
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu" style="text-align:center;background-color:#d8cfd0">
+            <li><a href="latestsongs.html">LATEST SONGS</a></li>
+            <li><a href="byartist.html">ARTIST</a></li>
+            <li><a href="bylang.html">LANGUAGES</a></li>
+             <li><a href="bycato.html">CATERGORIES</a></li>
+          </ul>
+        </li>
+		<li><a href="sheet.html">CHORDSHEET</a></li>
+        </li>
+        <li>
+          <form action="searchpage.php" method="POST">
+            <input type="search" id="search" name="search" placeholder="Search">
+            <i class="fa fa-search"></i>
+          </form>		
+        </li>
+		
+      </ul> 
+    </div>
+  </div>
+</nav>
+<!---------------navbar section end------------------------------------>
+
+
+
+
+<!---------------------------------image slider section start---------------------------------------->
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <div class="banner" style="background-image: url(poster/img1.jpg);"></div>
+      <div class="carousel-caption">
+        <h2 class="animated fadeInRight">Enhance your <span>Musical Experience</span> with ease</h2>
+		<h4 class="animated fadeInUp">Learn Guitar chords of songs and tune them according to you...Now!!!</h4>
+		<p class="animated fadeInUp"><a href="#foot">Contact us</a></p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="banner" style="background-image: url(poster/backimg2.jpg);"></div>
+      <div class="carousel-caption">
+        <h2 class="animated fadeInRight">Enhance your <span>Musical Experience</span> with ease</h2>
+		<h4 class="animated fadeInUp">Learn Guitar chords of songs and tune them according to you...Now!!!</h4>
+		<p class="animated fadeInUp"><a href="#foot">Contact us</a></p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="banner" style="background-image: url(poster/backimg1.jpg);"></div>
+      <div class="carousel-caption">
+        <h2 class="animated fadeInRight">Enhance your <span>Musical Experience</span> with ease</h2>
+		<h4 class="animated fadeInUp">Learn Guitar chords of songs and tune them according to you...Now!!!</h4>
+		<p class="animated fadeInUp"><a href="#foot">Contact us</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>  
+  
+</div>
+<!---------------------------------image slider section end--------------------------------->
+
+
+
+<!---------------------------------about section start-------------------------------------->
+
+<section class="about"><br><br><br>
+	<div class="container">
+		<div class="profile-img" data-aos="fade-right" data-aos-delay="400">
+            <img src="poster/aboutus1.jpg" alt="">
+        </div>
+		<div class="about-details" data-aos="fade-left" data-aos-delay="600">
+			<div class="about-heading">
+				<h1>About</h1>
+				<h6>Who We Are</h6>
+			</div>
+			<p><h3>Dguitarist is a website which give a brief guitar theory and chords.</h3>
+			    It all began when a bunch of music lovers met and
+				decided to do something about their passion for music and that's how 
+				dguitarist came into existence.
+			</p>
+			<div class="social-icons text-center">
+				<ul>
+					<li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a class="twitter" href="https://twitter.com/DguitaristO"><i class="fab fa-twitter"></i></a></li>
+					<li><a class="instagram" href="https://www.instagram.com/_dguitarist_/"><i class="fab fa-instagram"></i></a></li>              
+				</ul>
+			</div>
+		</div>				
+	</div><br><br><br>
+</section>	
+
+<section class="services">
+	<div class="container">
+		<div class="section-heading" data-aos="fade-down" data-aos-delay="400">
+			<h1>Services</h1>
+			<h6>what can we do for you</h6>
+		</div>
+		<div class="my-skills">
+			<div class="skill" data-aos="fade-right" data-aos-delay="800">
+				<div class="icon-container">
+					<i class="fas fa-plus" style="margin-bottom: 10px; margin-left: 12px; font-weight: bold">/</i>
+						<i class="fas fa-minus" style="margin-top: 20px; margin-right: 15px"></i>
+				</div>
+				<h1>Transpose Function</h1>
+				<p>Transpose facility to change the scale of a song.</p>
+			</div>
+			<div class="skill" data-aos="fade-up" data-aos-delay="1100">
+				<div class="icon-container">
+					<i class="fas fa-music fab"></i>
+				</div>
+				<h1>Chords with Lyrics</h1>
+				<p>Chords with lyrics will be provided.</p>				
+			</div>
+			<div class="skill" data-aos="fade-left" data-aos-delay="1400">
+				<div class="icon-container">
+					<i class="fas fa-image fab"></i>
+				</div>
+				<h1>Images of Chords</h1>
+				<p>Images of chords will be provided.</p>				
+			</div>
+		</div>
+	</div><br>
+</section>
+	
+	
+<!---------------------------------about section end----------------------------------------->
+ 
+<!---------------------------------our team section start-----------------------------------------
+ 
+    
+<------------------------------- our team section end ----------------------------->
+<section class="meettheteam">
+	<div class="title" data-aos="fade-down" data-aos-delay="400">
+		<h1>OUR TEAM</h1>
+		<h6>Meet the Team</h6>
+	</div>
+  <div class="im">
+    <div class="bx" data-aos="fade-right" data-aos-delay="700">
+      <div class="igBox">
+        <img src="poster/abhi.jpeg" height="500px">
+      </div>
+      <div class="con">
+        <h2>ABHILASHA DESHMUKH</h2>
+        <ul class="social">
+        		<li><a href="#" class="fab fa-facebook-f"></a></li>
+				<li><a href="#" class="fab fa-twitter"></a></li>
+				<li><a href="https://www.instagram.com/socially_introvert_/?igshid=ec0actk5r1ja" class="fab fa-instagram"></a></li>							
+			</ul>
+        <p style="margin-top: 20%; font-weight: bold; font-size: 20px; color: #888800">Back-end Developer<br>Content Creator</p>
+      </div>
+    </div>
+    <div class="bx" data-aos="fade-up" data-aos-delay="1000">
+      <div class="igBox">
+        <img src="poster/nayana.jpeg" height="500px">
+      </div>
+      <div class="con">
+        <h2>NAYANA DUTARGI</h2>
+        <ul class="social">
+            <li><a href="#" class="fab fa-facebook-f"></a></li>
+        <li><a href="#" class="fab fa-twitter"></a></li>
+        <li><a href="https://www.instagram.com/__nayana_16_/?igshid=lmdu2pkotpcd" class="fab fa-instagram"></a></li>              
+      </ul>
+        <p style="margin-top: 20%; font-weight: bold; font-size: 20px; color: #888800">Front-end Developer<br>Content Creator</p>
+      </div>
+    </div>
+    <div class="bx" data-aos="fade-left" data-aos-delay="1300">
+      <div class="igBox">
+        <img src="poster/shruti.jpeg" height="500px">
+      </div>
+      <div class="con">
+        <h2>SHRUTI DALVI</h2>
+        <ul class="social">
+            <li><a href="#" class="fab fa-facebook-f"></a></li>
+        <li><a href="#" class="fab fa-twitter"></a></li>
+        <li><a href="https://www.instagram.com/obliviate_08_/" class="fab fa-instagram"></a></li>              
+      </ul>
+        <p style="margin-top: 20%; font-weight: bold; font-size: 20px; color: #888800">Front-end Developer<br>Content Creator</p>
+      </div>
+    </div>
+  </div><br><br>
+</section>
+
+<!------------------------------- footer section start ------------------------------->
+<a name="foot"></a>
+<footer class="site-footer" id="footer">
+<div class="text-center">
+  <a class="up-arrow" href="#myPage" id="click" data-toggle="tooltip" title="BACK TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+</div><br><br>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+          	<h6>About Us</h6>
+          	<p style="justify-content: center">
+          		<h3>Dguitarist is a website which give a brief guitar theory and chords.</h3>
+			    It all began when a bunch of music lovers met and
+				decided to do something about their passion for music and that's how 
+				dguitarist came into existence.
+          	</p>		
+          </div>
+		  
+		  <div class="col-xs-6 col-md-3">
+		  	<h6>Services</h6>
+		  	<ul>
+		  		<li>Chords of all your favourite songs in Hindi and English.<br></li>
+		  		<li>Transpose facility available.<br></li>
+		  		<li>Chords with Lyrics.<br></li>
+		  		<li>180+ Images of Chords.<br></li>
+		  		<li>All Features are free without even registration!<br></li>
+		  	</ul>	
+		  </div>
+		 
+		   
+		  <div class="col-xs-6 col-md-3">
+			<div class="contactForm">
+		    <h6>Get in Touch with Us</h6>
+            <form action="sendcomm.php" method="POST">
+                <label>  Name <br><input type="name" name='name' class="fill"  required></label><br>
+                <label>  Email <br><input type="email" name='email' class="fill"  required></label><br>
+                <label>  Leave a message or request a song<br><textarea rows="3" name="msg" class="fill" required></textarea></label><br>               
+				<input type="submit" name="post" class="fill-btn" value="Post">
+            </form>			
+			</div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <h5 class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+            <a href="#">Dguitarist</a>.
+            </h5>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a class="twitter" href="https://twitter.com/DguitaristO"><i class="fab fa-twitter"></i></a></li>
+              <li><a class="instagram" href="https://www.instagram.com/_dguitarist_/"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+</footer>
+
+<!------------------------------- footer section end ------------------------------->
+
+
+
+<!--<script src="js/main.js"></script>-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+		easing: 'ease',
+		duration: 1800,
+		once: true
+	});
+</script>
+<script>
+    $(document).ready(function (){
+        $("#click").click(function (){
+            $('html, body').animate({
+                scrollTop: $("#myPage").offset().top
+            }, 2000);
+        });
+    });
+</script>
+
+
+</body>
+</html>
